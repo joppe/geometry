@@ -1,7 +1,7 @@
 {
-  "name": "geometry",
+  "name": "@apestaartje/geometry",
   "version": "1.0.0",
-  "description": "A library",
+  "description": "A geometry library",
   "scripts": {
     "build": "npm run clean && node ./node_modules/.bin/tsc",
     "clean": "rm -rf dist",
@@ -11,8 +11,6 @@
     "test": "karma start karma.conf.js",
     "test:watch": "karma start karma.conf.js --no-single-run --auto-watch"
   },
-  "main": "dist/index",
-  "typings": "dist/index",
   "repository": {
     "type": "git",
     "url": "https://github.com/joppe/geometry"
