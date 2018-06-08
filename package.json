@@ -1,6 +1,6 @@
 {
   "name": "@apestaartje/geometry",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A geometry library",
   "scripts": {
     "build": "npm run clean && node ./node_modules/.bin/tsc",
