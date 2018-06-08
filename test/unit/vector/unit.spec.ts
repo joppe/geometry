@@ -21,5 +21,11 @@ describe('vector', (): void => {
             expect(bb.x).toBe(-0.23274413737629865);
             expect(bb.y).toBe(0.9725380026081051);
         });
+
+        it('throw an error when the length is zero', (): void => {
+            expect((): void => {
+                unit({x: 0, y: 0});
+            }).toThrow();
+        });
     });
 });
