@@ -29,7 +29,7 @@ export class Transform {
         return this._skewY;
     }
 
-    get tanslateX(): number {
+    get translateX(): number {
         return this._translateX;
     }
 
