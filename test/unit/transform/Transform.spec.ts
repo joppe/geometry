@@ -99,8 +99,8 @@ describe('Transform', () => {
 
         const pp: Point = transform.transformPoint(p);
 
-        expect(pp.x.toFixed(2)).toBe('20.00');
-        expect(pp.y.toFixed(2)).toBe('8.00');
+        expect(pp.x).toBeCloseTo(20);
+        expect(pp.y).toBeCloseTo(8);
     });
 
     it('translate scale translate', (): void => {
