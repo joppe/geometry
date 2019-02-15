@@ -2,7 +2,7 @@
  * Type representing a size
  */
 
-export type Size = {
+export interface Size {
     width: number;
     height: number;
-};
+}
