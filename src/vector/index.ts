@@ -4,6 +4,7 @@
 
 export * from './add';
 export * from './angle';
+export * from './clone';
 export * from './distance';
 export * from './dotProduct';
 export * from './factory';
