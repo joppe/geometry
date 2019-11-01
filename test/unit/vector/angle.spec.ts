@@ -1,5 +1,5 @@
-import { angle } from '../../../src/vector/angle';
-import { Vector } from '../../../src/vector/Vector';
+import { angle } from '@apestaartje/geometry/vector/angle';
+import { Vector } from '@apestaartje/geometry/vector/Vector';
 
 describe('vector', (): void => {
     describe('angle', (): void => {

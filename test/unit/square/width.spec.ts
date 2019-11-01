@@ -1,5 +1,5 @@
-import { Square } from '../../../src/square/Square';
-import { width } from '../../../src/square/width';
+import { Square } from '@apestaartje/geometry/square/Square';
+import { width } from '@apestaartje/geometry/square/width';
 
 describe('square', (): void => {
     describe('width', (): void => {

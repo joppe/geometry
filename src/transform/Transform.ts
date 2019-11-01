@@ -1,5 +1,5 @@
 import { Point } from '../point/Point';
-import { Options } from './Options';
+import { TransformOptions } from './TransformOptions';
 
 /**
  * Object to handle transformation
@@ -52,7 +52,7 @@ export class Transform {
         return this;
     }
 
-    public transform(options: Options): void {
+    public transform(options: TransformOptions): void {
         const scaleX: number = this._scaleX;
         const scaleY: number = this._scaleY;
         const skewX: number = this._skewX;
@@ -78,7 +78,7 @@ export class Transform {
             translateX: 0,
             scaleY: cos,
             skewY: sin,
-            translateY: 0
+            translateY: 0,
         });
 
         return this;
@@ -91,7 +91,7 @@ export class Transform {
             translateX: 0,
             scaleY: y,
             skewY: 0,
-            translateY: 0
+            translateY: 0,
         });
 
         return this;
@@ -104,7 +104,7 @@ export class Transform {
             translateX: 0,
             scaleY: 1,
             skewY: y,
-            translateY: 0
+            translateY: 0,
         });
 
         return this;
@@ -117,7 +117,7 @@ export class Transform {
             translateX: x,
             scaleY: 1,
             skewY: 0,
-            translateY: y
+            translateY: y,
         });
 
         return this;
@@ -126,7 +126,7 @@ export class Transform {
     public transformPoint(point: Point): Point {
         return {
             x: point.x * this._scaleX + point.y * this._skewX + this._translateX,
-            y: point.y * this._scaleY + point.x * this._skewY + this._translateY
+            y: point.y * this._scaleY + point.x * this._skewY + this._translateY,
         };
     }
 }

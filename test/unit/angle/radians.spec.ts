@@ -1,4 +1,4 @@
-import { radians } from '../../../src/angle/radians';
+import { radians } from '@apestaartje/geometry/angle/radians';
 
 describe('angle', (): void => {
     describe('radians', (): void => {

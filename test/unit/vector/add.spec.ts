@@ -1,5 +1,5 @@
-import { add } from '../../../src/vector/add';
-import { Vector } from '../../../src/vector/Vector';
+import { add } from '@apestaartje/geometry/vector/add';
+import { Vector } from '@apestaartje/geometry/vector/Vector';
 
 describe('vector', (): void => {
     describe('add', (): void => {

@@ -1,4 +1,4 @@
-import { degrees } from '../../../src/angle/degrees';
+import { degrees } from '@apestaartje/geometry/angle/degrees';
 
 describe('angle', (): void => {
     describe('degrees', (): void => {

@@ -6,6 +6,6 @@ import { Angle } from './Angle';
 
 export function clone(angle: Angle): Angle {
     return {
-        radians: angle.radians
+        radians: angle.radians,
     };
 }

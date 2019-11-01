@@ -1,5 +1,5 @@
-import { Point } from '../../../src/point/Point';
-import { Transform } from '../../../src/transform/Transform';
+import { Point } from '@apestaartje/geometry/point/Point';
+import { Transform } from '@apestaartje/geometry/transform/Transform';
 
 describe('Transform', () => {
     it('initially return the same point', (): void => {

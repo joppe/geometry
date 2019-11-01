@@ -7,6 +7,6 @@ import { Vector } from './Vector';
 export function factory(radians: number, length: number): Vector {
     return {
         x: Math.cos(radians) * length,
-        y: Math.sin(radians) * length
+        y: Math.sin(radians) * length,
     };
 }

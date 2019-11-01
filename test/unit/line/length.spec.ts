@@ -1,5 +1,5 @@
-import { length } from '../../../src/line/length';
-import { Line } from '../../../src/line/Line';
+import { length } from '@apestaartje/geometry/line/length';
+import { Line } from '@apestaartje/geometry/line/Line';
 
 describe('line', (): void => {
     describe('length', (): void => {

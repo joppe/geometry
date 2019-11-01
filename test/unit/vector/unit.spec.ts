@@ -1,5 +1,5 @@
-import { unit } from '../../../src/vector/unit';
-import { Vector } from '../../../src/vector/Vector';
+import { unit } from '@apestaartje/geometry/vector/unit';
+import { Vector } from '@apestaartje/geometry/vector/Vector';
 
 describe('vector', (): void => {
     describe('unit', (): void => {

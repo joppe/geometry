@@ -7,6 +7,6 @@ import { Vector } from './Vector';
 export function scale(a: Vector, k: number): Vector {
     return {
         x: a.x * k,
-        y: a.y * k
+        y: a.y * k,
     };
 }

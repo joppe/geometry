@@ -7,6 +7,6 @@ import { Vector } from './Vector';
 export function clone(vector: Vector): Vector {
     return {
         x: vector.x,
-        y: vector.y
+        y: vector.y,
     };
 }

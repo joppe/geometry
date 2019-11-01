@@ -1,5 +1,5 @@
-import { Angle } from '../../../src/angle/Angle';
-import { clone } from '../../../src/angle/clone';
+import { Angle } from '@apestaartje/geometry/angle/Angle';
+import { clone } from '@apestaartje/geometry/angle/clone';
 
 describe('angle', (): void => {
     describe('clone', (): void => {

@@ -1,5 +1,5 @@
-import { add } from '../../../src/point/add';
-import { Point } from '../../../src/point/Point';
+import { add } from '@apestaartje/geometry/point/add';
+import { Point } from '@apestaartje/geometry/point/Point';
 
 describe('point', (): void => {
     describe('add', (): void => {

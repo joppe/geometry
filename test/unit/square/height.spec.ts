@@ -1,5 +1,5 @@
-import { height } from '../../../src/square/height';
-import { Square } from '../../../src/square/Square';
+import { height } from '@apestaartje/geometry/square/height';
+import { Square } from '@apestaartje/geometry/square/Square';
 
 describe('square', (): void => {
     describe('height', (): void => {

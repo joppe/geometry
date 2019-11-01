@@ -1,5 +1,5 @@
-import { dotProduct } from '../../../src/vector/dotProduct';
-import { Vector } from '../../../src/vector/Vector';
+import { dotProduct } from '@apestaartje/geometry/vector/dotProduct';
+import { Vector } from '@apestaartje/geometry/vector/Vector';
 
 describe('vector', (): void => {
     describe('dotProduct', (): void => {

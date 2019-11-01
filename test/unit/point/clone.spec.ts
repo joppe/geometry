@@ -1,5 +1,5 @@
-import { clone } from '../../../src/point/clone';
-import { Point } from '../../../src/point/Point';
+import { clone } from '@apestaartje/geometry/point/clone';
+import { Point } from '@apestaartje/geometry/point/Point';
 
 describe('point', (): void => {
     describe('clone', (): void => {

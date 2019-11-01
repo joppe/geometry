@@ -8,6 +8,6 @@ import { Line } from './Line';
 export function clone(line: Line): Line {
     return {
         start: clonePoint(line.start),
-        end: clonePoint(line.end)
+        end: clonePoint(line.end),
     };
 }

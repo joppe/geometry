@@ -17,5 +17,5 @@ export {
     size,
     square,
     transform,
-    vector
+    vector,
 };

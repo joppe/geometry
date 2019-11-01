@@ -7,6 +7,6 @@ import { Point } from './Point';
 export function clone(point: Point): Point {
     return {
         x: point.x,
-        y: point.y
+        y: point.y,
     };
 }

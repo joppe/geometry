@@ -1,5 +1,5 @@
-import { scale } from '../../../src/vector/scale';
-import { Vector } from '../../../src/vector/Vector';
+import { scale } from '@apestaartje/geometry/vector/scale';
+import { Vector } from '@apestaartje/geometry/vector/Vector';
 
 describe('vector', (): void => {
     describe('rotate', (): void => {

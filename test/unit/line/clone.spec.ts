@@ -1,5 +1,5 @@
-import { clone } from '../../../src/line/clone';
-import { Line } from '../../../src/line/Line';
+import { clone } from '@apestaartje/geometry/line/clone';
+import { Line } from '@apestaartje/geometry/line/Line';
 
 describe('line', (): void => {
     describe('clone', (): void => {

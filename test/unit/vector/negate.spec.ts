@@ -1,5 +1,5 @@
-import { negate } from '../../../src/vector/negate';
-import { Vector } from '../../../src/vector/Vector';
+import { negate } from '@apestaartje/geometry/vector/negate';
+import { Vector } from '@apestaartje/geometry/vector/Vector';
 
 describe('vector', (): void => {
     describe('length', (): void => {

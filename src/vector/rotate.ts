@@ -12,6 +12,6 @@ export function rotate(a: Vector, radians: number): Vector {
 
     return {
         x: len * Math.cos(sum),
-        y: len * Math.sin(sum)
+        y: len * Math.sin(sum),
     };
 }
