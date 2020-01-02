@@ -37,8 +37,17 @@ export class Transform {
         return this._translateY;
     }
 
-    constructor() {
-        this.identity();
+    constructor(options?: TransformOptions) {
+        if (options === undefined) {
+            this.identity();
+        } else {
+            this._scaleX = options.scaleX;
+            this._scaleY = options.scaleY;
+            this._skewX = options.skewX;
+            this._skewY = options.skewY;
+            this._translateX = options.translateX;
+            this._translateY = options.translateY;
+        }
     }
 
     public identity(): Transform {
@@ -128,5 +137,16 @@ export class Transform {
             x: point.x * this._scaleX + point.y * this._skewX + this._translateX,
             y: point.y * this._scaleY + point.x * this._skewY + this._translateY,
         };
+    }
+
+    public clone(): Transform {
+        return new Transform({
+            scaleX: this._scaleX,
+            scaleY: this._scaleY,
+            skewX: this._skewX,
+            skewY: this._skewY,
+            translateX: this._translateX,
+            translateY: this._translateY,
+        });
     }
 }
